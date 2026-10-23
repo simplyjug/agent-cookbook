@@ -23,17 +23,17 @@ Each pattern here is a small, self-contained answer to one of those failures.
 | # | Pattern | The failure it prevents | Status |
 |---|---------|------------------------|--------|
 | 01 | [Human approval gate](patterns/01-human-approval-gate/) | Agent performs an irreversible action unreviewed | ✅ Available |
-| 02 | Budget cap | Runaway token/cost spend | 🔜 Planned |
-| 03 | Loop breaker | Infinite or runaway agent loops | 🔜 Planned |
-| 04 | Structured output with repair | Malformed output silently consumed downstream | 🔜 Planned |
-| 05 | Tool allowlist (least privilege) | Agent uses tools its job never needed | 🔜 Planned |
-| 06 | Input/output guardrails | PII leaks, prompt injection, policy violations | 🔜 Planned |
-| 07 | Grounded answers | Confident, uncited, wrong answers | 🔜 Planned |
-| 08 | Eval harness | "Improvements" shipped on vibes, not measurements | 🔜 Planned |
-| 09 | Full trace logging | No way to replay or audit what the agent did | 🔜 Planned |
-| 10 | Checkpoint & resume | Long jobs lost to a single crash | 🔜 Planned |
-| 11 | Model routing & fallback | Paying frontier prices for trivial steps | 🔜 Planned |
-| 12 | Kill switch | No clean way to stop every agent, now | 🔜 Planned |
+| 02 | [Budget cap](patterns/02-budget-cap/) | Runaway token/cost spend | ✅ Available |
+| 03 | [Loop breaker](patterns/03-loop-breaker/) | Infinite or runaway agent loops | ✅ Available |
+| 04 | [Structured output with repair](patterns/04-structured-output-repair/) | Malformed output silently consumed downstream | ✅ Available |
+| 05 | [Tool allowlist (least privilege)](patterns/05-tool-allowlist/) | Agent uses tools its job never needed | ✅ Available |
+| 06 | [Input/output guardrails](patterns/06-guardrails/) | PII leaks, prompt injection, policy violations | ✅ Available |
+| 07 | [Grounded answers](patterns/07-grounded-answers/) | Confident, uncited, wrong answers | ✅ Available |
+| 08 | [Eval harness](patterns/08-eval-harness/) | "Improvements" shipped on vibes, not measurements | ✅ Available |
+| 09 | [Full trace logging](patterns/09-trace-logging/) | No way to replay or audit what the agent did | ✅ Available |
+| 10 | [Checkpoint & resume](patterns/10-checkpoint-resume/) | Long jobs lost to a single crash | ✅ Available |
+| 11 | [Model routing & fallback](patterns/11-model-routing/) | Paying frontier prices for trivial steps | ✅ Available |
+| 12 | [Kill switch](patterns/12-kill-switch/) | No clean way to stop every agent, now | ✅ Available |
 
 ## Quick start
 
